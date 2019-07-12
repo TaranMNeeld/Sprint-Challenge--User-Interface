@@ -101,6 +101,11 @@ p {
     margin-bottom: 4%;
 }
 
+.home-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
 button {
     border-radius: 10px;
     border: 2px solid black;
@@ -128,6 +133,7 @@ button {
 
 .top-home-content {
     display: flex;
+
 }
 
 .line {
