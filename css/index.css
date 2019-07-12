@@ -81,30 +81,40 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: row;
-
 }
 
 .single-container {
     display: flex;
     flex-direction: column;
     margin: 1%;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     border-bottom: 1px dotted grey;
+    width: 25%;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    width: 25%;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-bottom: 2%;
     width: 25%;
 }
 
 .text-container {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 4%;
     margin-bottom: 4%;
 }
 
-.home-text-container {
-    display: flex;
-    flex-direction: column;
-}
 
 button {
     border-radius: 10px;
@@ -131,14 +141,32 @@ button {
     margin: 2%;
 }
 
-.top-home-content {
+.bottom-content {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-bottom: 2%;
+}
 
+.bottom-home-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-bottom: 2%;
 }
 
 .line {
     border-bottom: 1px dotted grey;
     margin-top: 2%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2%;
 }
 
 .page-container {
@@ -157,13 +185,17 @@ button {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    width: 55%;
+    border-top: 1px dashed black;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
 .middle-content .boxes {
@@ -187,6 +219,11 @@ button {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-home-content {
+    display: flex;
+    flex-direction: row;
 }
 
 .bottom-content .text-container {
